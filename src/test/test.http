@@ -1,0 +1,11 @@
+###
+GET http://localhost:8080/user/getAll
+
+###
+POST http://localhost:8080/user/login
+Content-Type: application/json
+
+{
+  "userName": "ipangbo",
+  "userPass": "123"
+}
